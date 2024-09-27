@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: #E9EDF2;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+:root {
+    --primary-color: #4318FF;
+}
+
+.file {
+    display: none;
+}
+
+label {
+    color: #2B3674
+}
+
+.form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2B3674;
+}
+
+.form-range {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2B3674;
+}
+
+.head {
+    font-weight: 600;
+}
+
+h4 {
+    color: #2B3674
+}
+
+.upload p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #8F9BBA;
+}
+
+.card {
+    border: none;
+    height: 100%;
+}
+
+.coloum {
+    width: 49%;
+}
+
+.upload i,
+h6 {
+    color: var(--primary-color);
+}
+.upload h6{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: -0.02em;
+text-align: center;
+
+}
+.upload {
+
+    border-radius: 13px;
+    border: 1px dashed #B2BAD0;
+}
+
+/* second_section */
+.alert {
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.form-control {
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.range {
+    border-radius: 10px;
+    padding: 15px 5px;
+    /* margin: 10px; */
+    width: 80px;
+    border: 1px solid #B6BBC7;
+    text-align: center;
+    outline: none;
+}
+
+
+.range::placeholder {
+    color: #2B3674;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.color {
+    padding: 5px;
+    width: 100%;
+}
+
+.form-control {
+    border: 1px solid #B6BBC7
+}
+
+.form-control ::placeholder {
+    border: 1px solid #B6BBC7
+}
+
+.form-select {
+    color: #737373;
+}
+
+.dob {
+    color: #b2bad0;
+}
+
+.btn {
+    padding: 10px;
+
+    border-radius: 10px;
+}
+
+.form-label::after {
+
+    content: '*';
+    color: red;
+}
+
+.form-control:focus {
+    box-shadow: none;
+border-color:#4318FF;
+}
+
+.form-control::placeholder {
+    color: #949db9;
+    /* color: red; */
+}
+
+.form-check-input:checked {
+    background-color: #4318FF;
+    border-color: #4318FF;
+}
+
+.form-check-input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-check-input {
+    border: 2px solid #a1a9c2;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 0;
+}
+
+.checking {
+    margin: 0;
+}
+
+.form-control-color {
+    color: #cb5d9f;
+    width: 100%;
+
+
+}
+
+.custom label {
+    font-weight: 500;
+}
+
+.termcondition {
+    padding-left: 2.5rem;
+}
+
+.unfilled-btn {
+    background-color: var(--primary-color) !important;
+    color: #fff !important;
+    border: 0px;
+}
+
+.filled {
+    color: #2B3674;
+}
+
+
+
+input[type=range]::-webkit-slider-thumb {
+    box-shadow: none !important;
+    border-color: #4318FF !important;
+    background: #4318FF !important;
+}
+
+input .range:focus{
+    border-color: #4318FF !important;
+    background:red !important;
+}
+
+@media screen and (max-width:1400px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
+@media screen and (max-width:850px) {
+
+    .coloum {
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width:1157px) {
+
+    .chose-color {
+        width: 100%;
+    }
+
+    .template {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last-row {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .template {
+        display: flex;
+        flex-direction: column;
+    }
+}
